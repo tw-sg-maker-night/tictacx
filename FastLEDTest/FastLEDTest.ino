@@ -4,7 +4,7 @@
 #define BRIGHTNESS  16
 CRGB leds[NUM_LEDS];
 
-int inPins[9] = { 1, 1, 1, 1, 7, 8, 1, 1, 1 };
+int inPins[9] = { 5, 6, 7, 8, 9, 10, 11, 12, 13 };
 int ledStates[9] = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 int previousSwitchStates[9] = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
